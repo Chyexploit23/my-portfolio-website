@@ -175,8 +175,6 @@ img.me {
     margin-right: 150px;
     margin-bottom: 100px;
     min-height: 100px;
-    display: flex;
-    flex-direction: column;
     padding: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1em;
@@ -304,9 +302,9 @@ textarea {
     margin-bottom: 100px;
     min-height: 100px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     font-size: 1em;
-    max-width: 1200px;
+    max-width: 100%;
     box-shadow: 
     0 10px 25px rgba(0, 0, 0, 0.08),
     0 5px 10px rgba(0, 0, 0, 0.04);
