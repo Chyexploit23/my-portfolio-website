@@ -41,7 +41,7 @@ header {
     height: 50px;
     position: fixed;
     top: 0;
-    
+    overflow: hidden;
     box-shadow: #cfcfcf;
  }
 }
@@ -428,13 +428,13 @@ textarea {
     position: absolute;
     top: 50px;
     right: 0;
-    left: 200px;
+    left: auto;
     background: white;
     box-shadow: #cfcfcf;
     text-align: justify;
     width: 200px;
-    margin-left: 150px;
-    padding: 20px;
+    margin: 0;
+    padding: 15px;
     z-index: 1;
   }
 
